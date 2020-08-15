@@ -1,0 +1,12 @@
+
+public class Assignment1 {
+public static void main(String[] args) {
+	float num1 = 10;
+	float num2 = 20;
+	float num3 = 30;
+	float tax=18;
+	float total_product=num1*num2*num3;
+	float total_ammount=((tax)*total_product)/100;
+	System.out.println("total ammount "+total_ammount);
+}
+}
